@@ -13,6 +13,6 @@
 
 #include <stdint.h>
 
-int get_nb_params(const uint8_t* fct);
+unsigned int get_nb_params(const uint8_t* fct);
 
 #endif          /* !GET_NB_PARAMS_H_*/
