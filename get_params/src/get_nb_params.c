@@ -19,12 +19,6 @@ typedef enum
     set_in_fct
 } t_state;
 
-typedef enum
-{
-    src_op = 0,
-    dst_op
-} t_position;
-
 static void update_register_state(t_state* regs, cs_x86* x86)
 {
     cs_x86_op* op = 0;
